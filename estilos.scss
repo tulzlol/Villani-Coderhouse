@@ -1,0 +1,180 @@
+/* SECTION NAV */
+
+.navbar {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    z-index: 500;
+
+    a {
+        color: white !important;
+    }
+}
+
+
+/* SECTION CAROUSEL */
+
+.carousel-main-middle {
+    top: 30%;
+}
+
+
+/* SECTION MAIL */
+
+
+.mailBox {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin-top: 30px;
+    margin-bottom: 2vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+}
+
+.mailLeft {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.mailRight {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+
+    h5 {
+        background-color: #94949421;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+
+.btnMargin {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.bannerImage {
+    width: 100%;
+    height: 500px;
+    box-shadow: 3px 8px 10px rgba(92, 93, 95, 0.336);
+}
+
+/* SECTION BOX */
+
+.box {
+    margin: 25px;
+    padding: 15px;
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(173, 173, 173, 0.342);
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+.btn {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.247);
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    padding-top: 15px;
+}
+
+
+/* CONTACTO */
+
+.h3Titulo {
+    margin-left: 0px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    box-shadow: 2px 2px 10px rgba(0, 10, 95, 0.473);
+}
+
+.contactoP {
+
+    p {
+        margin-bottom: 0 !important;
+    }
+
+}
+
+.formularioContacto {
+    display: inline-block;
+    margin-top: 15px !important;
+    justify-content: center;
+}
+
+.card {
+    margin: 25px !important;
+
+    img {
+        padding: 10px;
+    }
+
+}
+
+
+/* PRODUCTOS */
+
+.Product {
+    padding: 5px;
+    margin: 15px;
+    background-color: rgba(99, 119, 231, 0.075);
+    color: rgb(2, 2, 2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(24, 24, 24, 0.336);
+    img {
+        width: 290px;
+        height: 200px;
+    }
+    &:hover {
+        transition: 1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+
+/* SERVICIOS */
+
+.videoYoutube {
+    margin-left: 5px !important;
+}
+
+/* MEDIA QUERYS */
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .carouselSize {
+        height: 300px;
+    }
+
+    .carousel-main-middle {
+        top: 5%;
+    }
+
+    .h3Titulo {
+        text-align: center;
+    }
+
+    .bannerImage {
+        width: auto;
+        height: auto;
+    }
+
+    .textInside {
+        text-align: center;
+    }
+
+    .videoYoutube {
+        text-align: center;
+        margin-left: 0;
+    }
+}
