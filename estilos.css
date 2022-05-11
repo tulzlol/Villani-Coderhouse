@@ -3,6 +3,7 @@
 .navbar {
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    z-index: 500;
 }
 
 .navbar a {
@@ -17,6 +18,7 @@
 
 
 /* SECTION MAIL */
+
 
 .mailBox {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -100,7 +102,9 @@ footer {
 }
 
 .formularioContacto {
+    display: inline-block;
     margin-top: 15px !important;
+    justify-content: center;
 }
 
 .card {
@@ -139,7 +143,11 @@ footer {
 }
 
 
+/* SERVICIOS */
 
+.videoYoutube{
+    margin-left: 5px!important;
+}
 
 
 
@@ -178,4 +186,9 @@ footer {
     .textInside{
         text-align: center;
         }
+
+    .videoYoutube{
+        text-align: center;
+        margin-left: 0;
+    }
 }
