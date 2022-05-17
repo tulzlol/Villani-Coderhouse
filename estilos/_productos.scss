@@ -1,0 +1,45 @@
+/* PRODUCTOS */
+
+
+$fondoProductos: (
+    background-color: rgba(99, 119, 231, 0.075),  
+    padding: 5px,
+    margin: 15px,
+    color: rgb(2, 2, 2),
+    border-radius: 10px,
+    box-shadow: 2px 2px 5px rgba(24, 24, 24, 0.336), 
+);
+
+@mixin Product {
+    margin-top: 10px;
+    img {
+        width: 290px;
+        height: 200px;
+    }
+}
+
+$producto: map-get($fondoProductos, background-color padding margin color border-radius box-shadow);
+
+.producto{
+    @include Product;
+}
+
+.productoAnimado{
+    @extend .producto;
+    &:hover{
+        transition: 1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+.productoAnimado2{
+    @extend .producto;
+    margin-top: 3em;
+    &:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        transform: scale(1.1);
+        color: rgb(167, 80, 80);
+    }
+}

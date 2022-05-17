@@ -8,9 +8,54 @@
   color: white !important;
 }
 
+/* FOOTER */
+footer {
+  margin-top: 20px;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  padding-top: 15px;
+}
+
+/* MEDIA QUERYS */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .carouselSize {
+    height: 300px;
+  }
+
+  .carousel-main-middle {
+    top: 5%;
+  }
+
+  .h3Titulo {
+    text-align: center;
+  }
+
+  .bannerImage {
+    width: auto;
+    height: auto;
+  }
+
+  .textInside {
+    text-align: center;
+  }
+
+  .videoYoutube {
+    text-align: center;
+    margin-left: 0;
+  }
+}
 /* SECTION CAROUSEL */
 .carousel-main-middle {
   top: 30%;
+}
+
+.carousel-control-prev {
+  z-index: 0 !important;
+  top: -270px !important;
+}
+
+.carousel-control-next {
+  z-index: 0 !important;
+  top: -270px !important;
 }
 
 /* SECTION MAIL */
@@ -65,13 +110,6 @@
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.247);
 }
 
-/* FOOTER */
-footer {
-  margin-top: 20px;
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-  padding-top: 15px;
-}
-
 /* CONTACTO */
 .h3Titulo {
   margin-left: 0px !important;
@@ -99,57 +137,34 @@ footer {
   padding: 10px;
 }
 
-/* PRODUCTOS */
-.Product {
-  padding: 5px;
-  margin: 15px;
-  background-color: rgba(99, 119, 231, 0.075);
-  color: rgb(2, 2, 2);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(24, 24, 24, 0.336);
-}
-.Product img {
-  width: 290px;
-  height: 200px;
-}
-.Product:hover {
-  transition: 1s;
-  cursor: pointer;
-  transform: scale(1.05);
-}
-
 /* SERVICIOS */
 .videoYoutube {
   margin-left: 5px !important;
 }
 
-/* MEDIA QUERYS */
-@media only screen and (min-width: 320px) and (max-width: 576px) {
-  .carouselSize {
-    height: 300px;
-  }
+/* PRODUCTOS */
+.producto, .productoAnimado2, .productoAnimado {
+  margin-top: 10px;
+}
+.producto img, .productoAnimado2 img, .productoAnimado img {
+  width: 290px;
+  height: 200px;
+}
 
-  .carousel-main-middle {
-    top: 5%;
-  }
+.productoAnimado:hover {
+  transition: 1s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
 
-  .h3Titulo {
-    text-align: center;
-  }
-
-  .bannerImage {
-    width: auto;
-    height: auto;
-  }
-
-  .textInside {
-    text-align: center;
-  }
-
-  .videoYoutube {
-    text-align: center;
-    margin-left: 0;
-  }
+.productoAnimado2 {
+  margin-top: 3em;
+}
+.productoAnimado2:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(167, 80, 80);
 }
 
 /*# sourceMappingURL=estilos.css.map */

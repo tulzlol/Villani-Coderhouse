@@ -1,0 +1,49 @@
+/* SECTION NAV */
+
+.navbar {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    z-index: 500;
+
+    a {
+        color: white !important;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    padding-top: 15px;
+}
+
+/* MEDIA QUERYS */
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .carouselSize {
+        height: 300px;
+    }
+
+    .carousel-main-middle {
+        top: 5%;
+    }
+
+    .h3Titulo {
+        text-align: center;
+    }
+
+    .bannerImage {
+        width: auto;
+        height: auto;
+    }
+
+    .textInside {
+        text-align: center;
+    }
+
+    .videoYoutube {
+        text-align: center;
+        margin-left: 0;
+    }
+}
