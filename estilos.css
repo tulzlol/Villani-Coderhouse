@@ -17,8 +17,8 @@ footer {
 
 /* MEDIA QUERYS */
 @media only screen and (min-width: 320px) and (max-width: 576px) {
-  .carouselSize {
-    height: 300px;
+  .w-100 {
+    height: 380px;
   }
 
   .carousel-main-middle {
